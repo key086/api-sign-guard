@@ -1,5 +1,10 @@
 # api-sign-guard
 
+[![npm version](https://img.shields.io/npm/v/api-sign-guard)](https://www.npmjs.com/package/api-sign-guard) [![CI](https://github.com/key086/api-sign-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/key086/api-sign-guard/actions/workflows/ci.yml) ![license](https://img.shields.io/badge/license-MIT-blue) ![node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
+
+[English](./README.en.md) | 中文
+
+
 零依赖的 **接口请求签名校验 + AES 响应加密** 中间件，源自真实生产环境的小程序反爬体系。
 
 - 🔏 **请求签名**：参数按 key 字典序拼接 + `timestamp` + `nonce` + 密钥，MD5/SHA256 摘要，防篡改
